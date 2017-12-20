@@ -13,6 +13,7 @@ type ServiceProviderSettings struct {
 	IDPPublicCertPath           string
 	AssertionConsumerServiceURL string
 	SPSignRequest               bool
+	ValidateSignarture          bool
 
 	hasInit       bool
 	publicCert    string
